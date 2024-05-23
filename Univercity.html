@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Bad Script',cursive;
+            
+        }
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 500px;
+            background: #111;
+           
+        }
+        /* div{ */
+            /* display: flex; */
+            /* color:transparent; */
+            /* font-size: 25px; */
+            /* color:crimson; */
+        /* } */
+        div span{
+            animation: animate 3s linear infinite;
+            animation-delay: calc(0.1s * var(--i));
+            font-size: 40px;
+        }
+        
+        @keyframes animate{
+             0%
+            {
+                color: #fff;
+                filter: blur(2px);
+                text-shadow:  0 0 10px #00b3ff,
+                0 0 20px #00b3ff
+                0 0 40px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 120px #00b3ff,
+                0 0 200px #00b3ff,
+                0 0 300px #00b3ff,
+                0 0 400px #00b3ff;
+             }
+             30%,70%
+             {
+                color:#fff;
+                filter:blur(2px) hue-rotate(360deg);
+                text-shadow:0 0 10px #00b3ff,
+                0 0 20px  #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 120px #00b3ff,
+                0 0 200px #00b3ff;
+             }
+             100%
+             {
+                color: #fff;
+                filter: blur(2px) hue-rotate(0deg);
+                text-shadow: 0 0 10px #00b3ff,
+                0 0 20px #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 120px #00b3ff,
+                0 0 200px #00b3ff,
+                0 0 300px #00b3ff,
+                0 0 400px #00b3ff;
+             }
+            
+        }
+    </style>
+</head>
+ 
+<body>
+     
+ <h3><a href="file:///C:/Users/rg900/OneDrive/Desktop/Project/job.html"> <img src="back.png" height="50px"/></a></h3>
+     <div>
+    <span style="--i:1;margin-left:5vw;"><h1>Univercity Job</h1><br></span>
+    <span style="--i:2;"><p>Be professional on social Media.</p><br></span>
+    <span style="--i:3;"><p>Upload your resume(CV) to job sites</p><br></span>
+    <span style="--i:4;"><p>Use graduate recruitment agencies.</p><br></span>
+    <span style="--i:5;"><p>Ask connections about  jobopportunities.</p><br></span>
+    <span style="--i:6;"><p>Research companies before  applying for jobs.</p></span>
+    </div>
+    <button><a href="file:///C:/Users/rg900/OneDrive/Desktop/Project/Login.html">Log Out </a></button>
+     
+</body>
+</html>

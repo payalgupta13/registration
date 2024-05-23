@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'poppins',sans-serif;
+    }
+    body{
+        display:flex;
+        justify-content: center;
+        align-self: center;
+        min-height: 100vh;
+        background:rgb(7, 109, 187);
+        color: rgb(2, 2, 13);
+    }
+    div{
+        position: relative;
+        margin: 0;
+        font-size: 3em;
+        color:rgb(1, 1, 5);
+        z-index: 1;
+        overflow:visible;
+    }
+    div:before{
+        content: '';
+        position:absolute;
+        /* right:10; */
+        width:150%;
+        height: 100%;
+        background: linear-gradient(90deg,transparent 0%,#000 5%, #000 100%);
+        animation: animate 5.5s linear forwards;
+    }
+    @keyframes animate
+    {
+        100%
+        {
+            left:110%
+        }
+        0%
+        {
+            left:-20%
+        }
+    }
+    /* div{ */
+        /* margin-left: 100px; */
+    /* } */
+</style>
+<body>
+    <h3><a href="file:///C:/Users/rg900/OneDrive/Desktop/Project/job.html"><font color="yellow">Back</font> </a></h3>
+    <div>
+        <video  src="istockphoto-1448502444-640_adpp_is.mp4" autoplay muted width="1500"></video><br>
+        <h2>General Job Portal</h2>
+        <p>1)General job portals are websites where you can find lots of different job listings from many companies and industries.</p>
+        <br>
+        <p>2)They're like a one-stop shop for job hunting.</p>
+        <br>
+    <p>3)They're like a one-stop shop for job hunting.</p>
+    <br>
+    <p>4)You can look for job that match what you're interested in,and companies can post their job openings there too.</p>
+    <br>
+    <p>5)some well-known examples of these websites  are indeed,  Glassdoor, & Career Builder. </p>
+    <br>
+   
+    </div>
+    <!-- <button><a href="file:///C:/Users/rg900/OneDrive/Desktop/Project/Login.html">Log Out </a></button> -->
+</head>
+</body>
+</html>

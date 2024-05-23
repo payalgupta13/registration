@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        height: 100vh;
+        background: #000;
+        font-family: 'Bad Script',cursive;
+    }
+    div{
+        margin: 0;
+        padding: 0;
+        color: #111;
+        font-size: 1em;
+    }
+    div span{
+        display: table-cell;
+        margin: 0;
+        padding: 0;
+        animation: animate 2s linear infinite;
+    }
+    /* } */
+    /* div span:nth-child(1) */
+    /* { */
+    /* animation-delay:0s; */
+    /* } */
+    div span:nth-child(1)
+    {
+        animation-delay: 0s;
+    }
+    div span:nth-child(2)
+    {
+        animation-delay: 0.25s;
+    }div span:nth-child(3)
+    {
+        animation-delay: 0.5s;
+    }
+    div span:nth-child(4)
+    {
+        animation-delay: 0s.75;
+    }
+    div span:nth-child(5)
+    {
+        animation-delay: 1s;
+    }
+    div span:nth-child(6)
+    {
+        animation-delay: 1.25s;
+    }
+    div span:nth-child(7)
+    {
+        animation-delay: 1.5s;
+    }
+    div span:nth-child(8)
+    {
+        animation-delay: 1.75;
+    }
+    @keyframes animate
+    {
+        0%
+        {
+            color:#fff;
+            filter:blur(2px);
+            text-shadow: 0 0 10px #00b3ff,
+                         0 0 20px #00b3ff, 
+                          0 0 40px #00b3ff,
+                        0 0 80px #00b3ff, 
+                        0 120px #00b3ff,
+                        0 200px #00b3ff,
+                        0 300px #00b3ff,
+                        0 400px  #00b3ff;
+        }
+        5%,95%
+        {
+            color:#fff;
+            filter:blur(0px);
+            text-shadow:0 0 10px done;
+        }
+    }
+    </style>
+</head>
+<body>
+    <!-- <h3><a href="file:///C:/Users/rg900/OneDrive/Desktop/Project/job.html"><font color="yellow">Back</font> </a></h3> -->
+    <div>
+    <span><h1>GOVERNMENT JOB PORTAL EXPLANATION</h1></span>
+    <span><p>Government job portals  are  websites whereyou can find jobs that are in the Government,
+        like working for the police,schools, or other  public organisations.</p></span>
+    <span><p>These websites help you search for government jobs & tell you what you  what you need to apply for. </p></span>
+    <span><p>in India,there's a website called "Naukri.com- Government Jobs" that helps you find jobs in the government.</p></span>
+    <span><p>It's like a special website just for govern ment jobs</p></span>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+     
+    <h3><a href="file:///C:/Users/rg900/OneDrive/Desktop/Project/job.html"> <img src="back.png" height="50px"/></a></h3>
+    </div>
+    <!-- <h3><a href="file:///C:/Users/rg900/OneDrive/Desktop/Project/dashboard.html"> <img src="back.png" height="50px"/></a></h3> -->
+</body>
+</html>
